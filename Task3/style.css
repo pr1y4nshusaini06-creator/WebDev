@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(196, 84, 84);
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglime{
+    background-color: lime;
+}
+
+#bglime span{
+    color:red;
+}
+
+p{
+    color:white;
+}
+
+#para{
+    color: green;
+}
+
+#para span{
+    color:black;
+    font-size: 30px;
+}
+
+ul{
+    color: white;
+}
+
+ul a{
+    background-color: green;
+}
+
+ol > li > span{
+    color: red;
+}
+
+ol > li > div{
+    color: blue;
+}
+

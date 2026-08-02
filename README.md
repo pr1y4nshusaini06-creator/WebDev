@@ -17,25 +17,9 @@ This Project is just for fun and for my own use, it also helps me review and rev
 
 ## 🛠️ Tech Stack / Tools Used
 
-- Language(s): HTML
+- Language(s): HTML, CSS
 - Framework(s):-
 - Libraries:-
 - Tools/Platforms: Visual Studio Code
 
 ---
-
-## 📂 Project Structure
-
-```
-project-root/
-├── index.html          # Main HTML file
-├── Task1.html            # Task 1 HTML file
-└── README.md            # This file
-```
-
----
-
-## 🤝 Contributors
-
-- Name — Priyanshu Saini
-
