@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +7,16 @@
 </head>
 
 <body>
-    <header>
-        <h1>Laundry Wallah / Laundry Mart</h1>
-        <p> Welcome to our laundry service! We provide top-notch laundry solutions for your
-            convenience, one-stop for all your laundry needs, with focus on quality and
-            customer satisfaction.</p>
-        <img style="width: 50%; max-width: 600px;" src="cart-template-196263011.webp"
-            alt="Laundry Service">
-    </header>
+    <h1>Laundry Wallah / Laundry Mart</h1>
+    <section id="About"> Welcome to our laundry service! We provide top-notch laundry solutions for your
+        convenience, one-stop for all your laundry needs, with focus on quality and
+        customer satisfaction. We give our best output and ensure a seamless experience for our customers.
+        For any problem in Clothes, we are here to help you. We provide a wide range of services including washing, drying, 
+        ironing, and folding. Our team of experienced professionals is dedicated to delivering exceptional results and ensuring 
+        your clothes are treated with care. We use eco-friendly detergents and modern equipment to ensure your garments are 
+        cleaned effectively while being gentle on the environment.
+    </section>
+    <img style="width: 50%; max-width: 600px;" src="cart-template-196263011.webp" alt="">
 
     <main>
         <section id="services">
@@ -34,20 +35,41 @@
 
         <section id="Prices">
             <h2>Price List</h2>
-            <ul>
-                <li>Washing and Drying: Rs.5 per load</li>
-                <li>Ironing and Folding: Rs.3 per item</li>
-                <li>Dry Cleaning: Rs.10 per item</li>
-                <li>Stain Removal: Rs.7 per item</li>
-                <li>Express Services: Rs.15 per load</li>
-                <li>Special Garment Care: Rs.20 per item</li>
-                <li>Pickup and Delivery: Free for orders over Rs.50</li>
-            </ul>
+            <table border="1">
+                <tr>
+                    <td>Washing and Drying</td>
+                    <td>Rs.5 per load</td>
+                </tr>
+                <tr>
+                    <td>Ironing and Folding</td>
+                    <td>Rs.3 per item</td>
+                </tr>
+                <tr>
+                    <td>Dry Cleaning</td>
+                    <td>Rs.10 per item</td>
+                </tr>
+                <tr>
+                    <td>Stain Removal</td>
+                    <td>Rs.7 per item</td>
+                </tr>
+                <tr>
+                    <td>Express Services</td>
+                    <td>Rs.15 per load</td>
+                </tr>
+                <tr>
+                    <td>Special Garment Care</td>
+                    <td>Rs.20 per item</td>
+                </tr>
+                <tr>
+                    <td>Pickup and Delivery</td>
+                    <td>Free for orders over Rs.50</td>
+                </tr>
+            </table>
         </section>
 
         <section id="Book">
             <h2>Book Now</h2>
-            <form action="submit_booking.php" method="POST">
+            <form action="">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required><br><br>
 
