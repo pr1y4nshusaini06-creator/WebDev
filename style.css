@@ -7,19 +7,34 @@ header{
     text-align: center;
 }
 
+#task-separator{
+    border: 2px solid black;
+}
+
 main{
     margin: 20px;
     background-color: rgba(198, 36, 206, 0.618);
     padding: 10px;
+    border: 4px solid black;
     border-radius: 40px;
+    width: 50vw;
 }
 
-article{
+#SubHead{
     margin: 20px;
     text-align: center;
     font-size: 25px;
 }  
 
-ul{
+#TaskLinks{
+    margin: 20px;
     font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li :hover{
+    color: lightgreen;
 }
