@@ -13,11 +13,15 @@ header{
 
 main{
     margin: 20px;
-    background-color: rgba(198, 36, 206, 0.618);
     padding: 10px;
+    background-color: rgba(198, 36, 206, 0.618);
     border: 4px solid black;
     border-radius: 40px;
+    text-align: justify;
     width: 50vw;
+    height: 30vw;
+    overflow: auto;
+    scrollbar-width: none;
 }
 
 #SubHead{
