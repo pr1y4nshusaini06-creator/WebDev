@@ -42,3 +42,41 @@ a{
 li :hover{
     color: lightgreen;
 }
+
+@media (max-width: 768px){
+    main{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(198, 36, 206, 0.618);
+    border: 4px solid black;
+    border-radius: 40px;
+    text-align: justify;
+    width: 90vw;
+    height: 50vw;
+    overflow: auto;
+    scrollbar-width: none;
+}
+}
+
+@media (max-width: 426px){
+    main{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(198, 36, 206, 0.618);
+    border: 4px solid black;
+    border-radius: 40px;
+    text-align: justify;
+    width: 90vw;
+    height: 150vw;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+h3{
+    font-size: 5vw;
+}
+
+li{
+    font-size: 4vw;
+}
+}
